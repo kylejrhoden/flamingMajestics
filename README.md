@@ -1,0 +1,2 @@
+# flamingMajestics
+ Flaming Majestics Website
