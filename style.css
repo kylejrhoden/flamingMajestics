@@ -34,6 +34,26 @@
     position: relative;
 }
 
+.heroAbout {
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(images/redLogoBig.png);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.heroContact {
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(images/redLogoBig.png);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
 .nav-bar {
     display: flex;
     padding: 40px 120px;
@@ -218,7 +238,8 @@
 
 .img-gallery img:hover {
     transform: scale(0.8) rotate(-10deg);
-    border-radius: 20px;
+    transition: .2s;
+    border-radius: 12px;
     box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
 }
 

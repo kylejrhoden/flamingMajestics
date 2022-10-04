@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaming Majestics Baseball</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="images/redLogoIcon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="heroAbout">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <a href="index.html"><img src="images/redLogo.png"></a>
+            </div>
+            <div class="nav-links" id="nav-links">
+            <i class="bi bi-x" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="roster.html"><li>Roster</li></a>
+                    <a href="media.html"><li>Media</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+                <button type="button" class="btn">Stay In The Loop</button>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </div>
+
+
+        <p class="mission">
+            <b>Mission:</b> To play fast-pished baseball while enjoying beverages, eating hotdogs, being friendly,
+             being funny, and creating a space where everyone can come as they are, get exercise, socialize, and forget about the daily stressors. 
+        </p>
+    
+        <p> 
+            <b>Sportsmanship Tenants:</b> 
+            <ul class="tenantList">
+            <li> We are generous with compliments and encouragement.</li> 
+            <li> We work together and share.</li>
+            <li> We are always willing to apologize and be courteous.</li>
+            <li> We strive to do the right thing. </li>
+            <li> We play all positions and own none of them. </li>
+            </ul>
+        </p>
+    
+        <p class="mission">    
+            <b>Avenues of Conflict Resolution:</b> 
+            Everyone is to come as they are in complete comfort of authenticity; however, if an issue arises when a person may feel unsafe or 
+            offended at any point, avenues of communication are established for everyone’s benefit and protection. Below are the options for conflict resolution. 
+        </p>    
+    
+        <p>
+            <ul class="blockList">
+                <li>1. Direct communication between people involved.</li>
+                <li>
+                    2. *Mediated by coaches <br>
+                    &nbsp;&nbsp; a. Rob Cox (xxx)xxx-xxxx)<br>
+                    &nbsp;&nbsp; b. Bucky Monreal (xxx)xxx-xxxx)<br>
+                    &nbsp;&nbsp; c. Dan Anderson (xxx)xxx-xxxx)<br>
+                    &nbsp;&nbsp; d. (feminine representation?) Brook Olsen (xxx)xxx-xxxx)<br>
+                </li>
+                <br>*Mediation aims to create a buffer between players, allowing for more honest and open disclosure when direct confrontation is not
+                possible per personal preference or for physical and emotional safety reasons.
+            </ul>
+        </p>
+    
+    
+        <p>   
+            In violation of behavioral norms, such as personal insults and attacks, temporary or permanent dismissal from the team is at
+             the discretion of leadership and team consensus. 
+        </p>
+
+
+
+        <div class="vertical-bar">
+            <div class="search-icon">
+                <i class="bi bi-trophy"></i>
+                <a href="https://www.paypal.com/pools/c/8NNfP3ocE1" target="_blank"><i class="bi bi-cash-coin"></i></a>
+            </div>
+            <div class="social-icons">
+                <i class="bi bi-facebook"></i>
+                <a  href="https://www.instagram.com/flaming_majestics/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://open.spotify.com/playlist/5tjKs5BP6wwAousKXqlfGf?si=2dd2827d9b654642" target="_blank"><i class="bi bi-spotify"></i></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu() {
+            show.style.right = "0";
+        }
+        function closeMenu() {
+            show.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
