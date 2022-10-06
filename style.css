@@ -128,6 +128,11 @@
     color: #e23838;
 }
 
+.banner-title .btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .vertical-bar {
     height: 100%;
     background: #000;
@@ -197,7 +202,7 @@
 
 .table-box {
     margin: 50px auto;
-position: relative;
+    position: relative;
 }
 
 .table-row {
@@ -323,6 +328,70 @@ position: relative;
     margin-bottom: 45px;
 }
 
+.contactForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: -12%;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.formButton {
+    width: 104%;
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+input:focus~label, input:valid~label, textarea:focus~label,textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+}
+
+.infoRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoRow .input-group {
+    flex-basis: 46%;
+}
+
 .footer {
     font-size: 12px;
     text-align: center;
@@ -332,7 +401,7 @@ position: relative;
     letter-spacing: 1px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .vertical-bar {
         display: none;
     }
