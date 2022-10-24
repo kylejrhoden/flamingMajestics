@@ -293,6 +293,7 @@
 
 .about {
     width: 80%;
+    height: 100vh;
     padding: 78px 30px 78px 60px;
     margin-top: -30px;
 }
