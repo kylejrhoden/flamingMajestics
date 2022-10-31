@@ -543,9 +543,13 @@ input:focus~label, input:valid~label, textarea:focus~label,textarea:valid~label 
 }
 
 /* ---------thank you page styling -----------------*/
+
+
 .thank-you {
     height: 100vh;
 }
+
+
 /* ---------media queries for resposive design -----------------*/
 
 @media (max-width: 768px) {
