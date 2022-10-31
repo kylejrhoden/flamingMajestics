@@ -468,12 +468,17 @@
 }
 
 /* ---------------contact page styling----------------- */
+
+.contact {
+    height: 100vh;
+    width: 100%;
+}
+
 .contact-form {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    min-height: 100vh;
     margin-top: -15%;
 }
 
@@ -527,10 +532,6 @@ input:focus~label, input:valid~label, textarea:focus~label,textarea:valid~label 
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.infoRow .input-group {
-    flex-basis: 46%;
 }
 
 .footer {
@@ -603,6 +604,10 @@ input:focus~label, input:valid~label, textarea:focus~label,textarea:valid~label 
         width: 80%;
         padding: 78px 30px 78px 65px;
         background-color: transparent;
+    }
+
+    .contact-form {
+        padding-right: 20px;
     }
 
     .container {
