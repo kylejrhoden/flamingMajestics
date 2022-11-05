@@ -207,6 +207,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 50px;
 }
 
 .info-dan {
@@ -333,6 +334,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 50px;
 }
 
 .info-bucky {
@@ -459,6 +461,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 50px;
 }
 
 .info-jared {
@@ -584,6 +587,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 50px;
 }
 
 .info-jando {
@@ -710,6 +714,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 50px;
 }
 
 .info-kelsey {
@@ -836,6 +841,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
 }
 
 .info-zach {
@@ -962,6 +968,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left:50px;
 }
 
 .info-brook {
@@ -1088,6 +1095,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 50px;
 }
 
 .info-kyle {
@@ -1214,6 +1222,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
 }
 
 .info-drew {
@@ -1466,6 +1475,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
 }
 
 .info-adam {
@@ -1572,7 +1582,7 @@
 
 .player-robbie img {
     width: 300px;
-    margin-top: -30px;
+    margin-top: -40px;
     z-index: 2;
 }
 
@@ -1592,6 +1602,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
 }
 
 .info-robbie {
@@ -1844,6 +1855,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
 }
 
 .info-annie {
@@ -1970,6 +1982,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 30px;
 }
 
 .info-alexis {
@@ -2096,6 +2109,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 40px;
 }
 
 .info-mallory {
@@ -2222,6 +2236,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 40px;
 }
 
 .info-lorrie {
@@ -2348,6 +2363,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
+    margin-left: 20px;
 }
 
 .info-baber {
