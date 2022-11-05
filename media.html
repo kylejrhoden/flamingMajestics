@@ -23,17 +23,21 @@
                     <a href="about.html"><li>About</li></a>
                     <a href="contact.html"><li>Contact</li></a>
                 </ul>
-                <button type="button" class="btn">Stay In The Loop</button>
+                <button type="button" href class="btn"><a href="contact.html"> Stay In The Loop</a></button>
             </div>
             <i class="bi bi-list" onclick="showMenu()"></i>
         </div>
 
-        <div class="full-img" id="fullImgBox">
-            <img src="images/img1.png" id="fullImg">
+        <div class="full-img" id="fullImgBox" onclick="closeFullImg()">
+            <img src="images/img1.png" id="fullImg" >
             <i class="bi bi-x" onclick="closeFullImg()"></i>
         </div>
 
         <div class="img-gallery">
+            <img src="images/oct22quitters.png" loading="lazy" onclick="openFullImg(this.src)">
+            <img src="images/oct22postgame.png" loading="lazy" onclick="openFullImg(this.src)">
+            <img src="images/oct22buckydanadam.png" loading="lazy" onclick="openFullImg(this.src)">
+            <img src="images/oct22game.png" loading="lazy" onclick="openFullImg(this.src)">
             <img src="images/img1.png" loading="lazy" onclick="openFullImg(this.src)">
             <img src="images/img2.png" loading="lazy" onclick="openFullImg(this.src)">
             <img src="images/img3.png" loading="lazy" onclick="openFullImg(this.src)">
@@ -52,7 +56,6 @@
             <div class="trophy-icon">
                 <i class="bi bi-trophy"></i>
             </div>
-
             <div class="donate-icon">
                 <a href="https://www.paypal.com/pools/c/8NNfP3ocE1" target="_blank"><i class="bi bi-cash-coin"></i></a>
             </div>
@@ -69,14 +72,14 @@
         </footer>
     </div>
     <script>
-        var show = document.getElementById("nav-links");
+        // var show = document.getElementById("nav-links");
 
-        function showMenu() {
-            show.style.right = "0";
-        }
-        function closeMenu() {
-            show.style.right = "-200px";
-        }
+        // function showMenu() {
+        //     show.style.right = "0";
+        // }
+        // function closeMenu() {
+        //     show.style.right = "-200px";
+        // }
 
         var fullImgBox = document.getElementById("fullImgBox");
         var fullImg = document.getElementById("fullImg");

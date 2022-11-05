@@ -1,0 +1,2397 @@
+/* --------------card page styling------------- */
+
+
+
+/*----- rob card -----*/
+
+.section-rob {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-rob {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-rob {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-rob .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-rob {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-rob img {
+    width: 300px;
+    margin-top: -20px;
+    z-index: 2;
+}
+
+.circle-rob {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-rob p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-rob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-rob h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-rob h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-rob {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-rob {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-rob {
+        max-height: 20%;
+    }
+    .player-rob img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-rob {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- dan -----*/
+.section-dan {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-dan {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-dan {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-dan .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-dan {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-dan img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-dan {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-dan p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-dan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-dan h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-dan h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-dan {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-dan {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-dan {
+        max-height: 20%;
+    }
+    .player-dan img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-dan {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- bucky ------*/
+.section-bucky {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-bucky {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-bucky {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-bucky .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-bucky {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-bucky img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-bucky {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-bucky p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-bucky {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-bucky h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-bucky h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-bucky {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-bucky {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-bucky {
+        max-height: 20%;
+    }
+    .player-bucky img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-bucky {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- jared ------*/
+.section-jared {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-jared {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-jared {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-jared .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-jared {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-jared img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-jared {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-jared p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-jared {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-jared h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+}
+
+.info-jared h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-jared {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-jared {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-jared {
+        max-height: 20%;
+    }
+    .player-jared img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-jared {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- jando ------*/
+.section-jando {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-jando {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-jando {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-jando .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-jando {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-jando img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-jando {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-jando p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-jando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-jando h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-jando h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-jando {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-jando {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-jando {
+        max-height: 20%;
+    }
+    .player-jando img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-jando {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- kelsey ------*/
+.section-kelsey {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-kelsey {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-kelsey {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-kelsey .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-kelsey {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-kelsey img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-kelsey {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-kelsey p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-kelsey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-kelsey h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-kelsey h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-kelsey {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-kelsey {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-kelsey {
+        max-height: 20%;
+    }
+    .player-kelsey img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-kelsey {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- zach ------*/
+.section-zach {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-zach {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-zach {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-zach .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-zach {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-zach img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-zach {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-zach p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-zach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-zach h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-zach h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-zach {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-zach {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-zach {
+        max-height: 20%;
+    }
+    .player-zach img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-zach {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- brook ------*/
+.section-brook {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-brook {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-brook {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-brook .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-brook {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-brook img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-brook {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-brook p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-brook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-brook h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-brook h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-brook {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-brook {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-brook {
+        max-height: 20%;
+    }
+    .player-brook img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-brook {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- kyle ------*/
+.section-kyle {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-kyle {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-kyle {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-kyle .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-kyle {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-kyle img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-kyle {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-kyle p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-kyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-kyle h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-kyle h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-kyle {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-kyle {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-kyle {
+        max-height: 20%;
+    }
+    .player-kyle img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-kyle {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- drew ------*/
+.section-drew {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-drew {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-drew {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-drew .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-drew {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-drew img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-drew {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-drew p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-drew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-drew h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-drew h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-drew {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-drew {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-drew {
+        max-height: 20%;
+    }
+    .player-drew img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-drew {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- casey ------*/
+.section-casey {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-casey {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-casey {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-casey .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-casey {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-casey img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-casey {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-casey p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-casey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-casey h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-casey h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-casey {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-casey {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-casey {
+        max-height: 20%;
+    }
+    .player-casey img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-casey {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- adam ------*/
+.section-adam {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-adam {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-adam {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-adam .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-adam {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-adam img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-adam {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-adam p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-adam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-adam h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-adam h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-adam {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-adam {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-adam {
+        max-height: 20%;
+    }
+    .player-adam img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-adam {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- robbie ------*/
+.section-robbie {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-robbie {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-robbie {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-robbie .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-robbie {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-robbie img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-robbie {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-robbie p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-robbie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-robbie h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-robbie h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-robbie {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-robbie {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-robbie {
+        max-height: 20%;
+    }
+    .player-robbie img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-robbie {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- bill ------*/
+.section-bill {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-bill {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-bill {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-bill .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-bill {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-bill img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-bill {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-bill p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-bill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-bill h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-bill h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-bill {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-bill {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-bill {
+        max-height: 20%;
+    }
+    .player-bill img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-bill {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- annie ------*/
+.section-annie {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-annie {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-annie {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-annie .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-annie {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-annie img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-annie {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-annie p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-annie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-annie h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-annie h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-annie {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-annie {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-annie {
+        max-height: 20%;
+    }
+    .player-annie img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-annie {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- alexis ------*/
+.section-alexis {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-alexis {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-alexis {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-alexis .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-alexis {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-alexis img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-alexis {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-alexis p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-alexis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-alexis h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-alexis h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-alexis {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-alexis {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-alexis {
+        max-height: 20%;
+    }
+    .player-alexis img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-alexis {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- mallory ------*/
+.section-mallory {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-mallory {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-mallory {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-mallory .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-mallory {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-mallory img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-mallory {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-mallory p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-mallory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-mallory h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-mallory h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-mallory {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-mallory {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-mallory {
+        max-height: 20%;
+    }
+    .player-mallory img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-mallory {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- lorrie ------*/
+.section-lorrie {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-lorrie {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-lorrie {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-lorrie .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-lorrie {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-lorrie img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-lorrie {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-lorrie p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-lorrie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-lorrie h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-lorrie h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-lorrie {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-lorrie {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-lorrie {
+        max-height: 20%;
+    }
+    .player-lorrie img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-lorrie {
+        margin-top: -1.5rem;
+    }
+}
+
+/*----- baber ------*/
+.section-baber {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    display: none;
+}
+
+.container-baber {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+ }
+
+.card-baber {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 3rem 5rem 0rem 5rem;
+    padding-bottom: -0.5rem;
+    background-image: url(images/baseball-card-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.section-baber .bi {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.player-baber {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.player-baber img {
+    width: 300px;
+    margin-top: -30px;
+    z-index: 2;
+}
+
+.circle-baber {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+        to right,
+        rgba(226,56,56,0.75),
+        rgba(32,32,36,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-baber p {
+    color: #000;
+    font-size: 46px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info-baber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-baber h2 {
+    color: #000;
+    margin-top: 130px;
+    font-size: 3rem;
+    transition: all 0.6s ease-out;
+}
+
+.info-baber h3 {
+    font-size: 1.3rem;
+    padding: 1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .container-baber {
+        max-width: 100vw;
+        margin-top: 20px;
+        width: 100%;
+        height: 90%;
+    }
+
+    .card-baber {
+        min-height: 89vh;
+        max-height: 90%;
+    }
+
+    .player-baber {
+        max-height: 20%;
+    }
+    .player-baber img {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .info-baber {
+        margin-top: -1.5rem;
+    }
+}

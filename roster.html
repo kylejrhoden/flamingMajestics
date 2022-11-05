@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flaming Majestics Baseball</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card-style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="shortcut icon" href="images/redLogoIcon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="heroRoster">
@@ -23,24 +27,422 @@
                     <a href="about.html"><li>About</li></a>
                     <a href="contact.html"><li>Contact</li></a>
                 </ul>
-                <button type="button" class="btn">Stay In The Loop</button>
+                <button type="button" href class="btn"><a href="contact.html"> Stay In The Loop</a></button>
             </div>
             <i class="bi bi-list" onclick="showMenu()"></i>
         </div>
 
-        <div class="table-box">
-            <div class="table-row table-head">
-                <div class="table-cell">
-                    <p>Player</p>
+        <div class="roster-text">
+            <p>Select a player to view their card</p>
+        </div>
+
+
+
+        <!-- full page card image  -->
+
+        <!-- rob full -->
+
+        <div class="section-rob" id="fullCardBoxRob" onclick="closeFullCardRob()">
+            <div class="container-rob" >
+                <div class="card card-rob" id="fullCard">
+                     <div class="player-rob">
+                        <div class="circle-rob"><p>00</p>
+                            <img src="images/players/robCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-rob">
+                        <h2>Rob Cox</h2>
+                        <h3>"Hey! Don't swing at that S*#@!" -Hot Dog</h3>
+                    </div>
                 </div>
-                <div class="table-cell">
-                    <p>#</p>
-                </div>
-                <div class="table-cell last-cell">
-                    <p>Nickname</p>
-                </div>
+                
             </div>
-            <div class="table-row">
+            <i class="bi bi-x" onclick="closeFullCardRob()"></i>
+        </div>
+
+        <!-- dan full -->
+
+        <div class="section-dan" id="fullCardBoxDan" onclick="closeFullCardDan()">
+            <div class="container-dan" >
+                <div class="card-dan" id="fullCard">
+                     <div class="player-dan">
+                        <div class="circle-dan"><p>1</p>
+                            <img src="images/players/danCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-dan">
+                        <h2>Dan Anderson</h2>
+                        <h3>"Captain"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardDan()"></i>
+        </div>
+
+        <!-- bucky full -->
+
+        <div class="section-bucky" id="fullCardBoxBucky" onclick="closeFullCardBucky()">
+            <div class="container-bucky" >
+                <div class="card-bucky">
+                     <div class="player-bucky">
+                        <div class="circle-bucky"><p>2</p>
+                            <img src="images/players/buckyCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-bucky">
+                        <h2>Bucky Monreal</h2>
+                        <h3>"Monreal"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardBucky()"></i>
+        </div>
+
+        <!-- jared full -->
+
+        <div class="section-jared" id="fullCardBoxJared" onclick="closeFullCardJared()">
+            <div class="container-jared">
+                <div class="card-jared">
+                     <div class="player-jared">
+                        <div class="circle-jared"><p>03</p>
+                            <img src="images/players/jaredCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-jared">
+                        <h2>Jared Fischer</h2>
+                        <h3>"Jear Bear"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardJared()"></i>
+        </div>
+
+        <!-- jando full -->
+
+        <div class="section-jando" id="fullCardBoxJando" onclick="closeFullCardJando()">
+            <div class="container-jando">
+                <div class="card-jando">
+                     <div class="player-jando">
+                        <div class="circle-jando"><p>4</p>
+                            <img src="images/players/jandoCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-jando">
+                        <h2>Jando Martinez</h2>
+                        <h3>"Middle Kid"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardJando()"></i>
+        </div>
+
+        <!-- kelsey full -->
+
+        <div class="section-kelsey" id="fullCardBoxKelsey" onclick="closeFullCardKelsey()">
+            <div class="container-kelsey">
+                <div class="card-kelsey">
+                     <div class="player-kelsey">
+                        <div class="circle-kelsey"><p>5</p>
+                            <img src="images/players/kelseyCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-kelsey">
+                        <h2>Kelsey Gocio</h2>
+                        <h3>"Punchy"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardKelsey()"></i>
+        </div>
+
+        <!-- zach full -->
+
+        <div class="section-zach" id="fullCardBoxZach" onclick="closeFullCardZach()">
+            <div class="container-zach">
+                <div class="card-zach">
+                     <div class="player-zach">
+                        <div class="circle-zach"><p>6</p>
+                            <img src="images/players/zachCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-zach">
+                        <h2>Zach Fischer</h2>
+                        <h3>"Solid"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardZach()"></i>
+        </div>
+
+        <!-- brook full -->
+
+        <div class="section-brook" id="fullCardBoxBrook" onclick="closeFullCardBrook()">
+            <div class="container-brook">
+                <div class="card-brook">
+                     <div class="player-brook">
+                        <div class="circle-brook"><p>7</p>
+                            <img src="images/players/brookCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-brook">
+                        <h2>Brook Olsen</h2>
+                        <h3>"Bazooka"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardBrook()"></i>
+        </div>
+
+        <!-- kyle full -->
+
+        <div class="section-kyle" id="fullCardBoxKyle" onclick="closeFullCardKyle()">
+            <div class="container-kyle">
+                <div class="card-kyle">
+                     <div class="player-kyle">
+                        <div class="circle-kyle"><p>9</p>
+                            <img src="images/players/kyleCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-kyle">
+                        <h2>Kyle Rhoden</h2>
+                        <h3>"KyRo"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardKyle()"></i>
+        </div>
+
+        <!-- drew full -->
+
+        <div class="section-drew" id="fullCardBoxDrew" onclick="closeFullCardDrew()">
+            <div class="container-drew">
+                <div class="card-drew">
+                     <div class="player-drew">
+                        <div class="circle-drew"><p>11</p>
+                            <img src="images/players/drewCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-drew">
+                        <h2>Drew Irwin</h2>
+                        <h3>"John Boy"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardDrew()"></i>
+        </div>
+ 
+        <!-- casey full -->
+
+        <div class="section-casey" id="fullCardBoxCasey" onclick="closeFullCardCasey()">
+            <div class="container-casey">
+                <div class="card-casey">
+                     <div class="player-casey">
+                        <div class="circle-casey"><p>12</p>
+                            <img src="images/players/caseyCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-casey">
+                        <h2>Casey Brindley</h2>
+                        <h3>"Ciciada"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardCasey()"></i>
+        </div>
+
+        <!-- adam full -->
+
+        <div class="section-adam" id="fullCardBoxAdam" onclick="closeFullCardAdam()">
+            <div class="container-adam">
+                <div class="card-adam">
+                     <div class="player-adam">
+                        <div class="circle-adam"><p>16</p>
+                            <img src="images/players/adamCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-adam">
+                        <h2>Adam Webb</h2>
+                        <h3>"Dugnutt"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardAdam()"></i>
+        </div>
+
+        <!-- robbie full -->
+
+        <div class="section-robbie" id="fullCardBoxRobbie" onclick="closeFullCardRobbie()">
+            <div class="container-robbie">
+                <div class="card-robbie">
+                     <div class="player-robbie">
+                        <div class="circle-robbie"><p>17</p>
+                            <img src="images/players/robbieCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-robbie">
+                        <h2>Robbie Brindley</h2>
+                        <h3>"Ronnie"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardRobbie()"></i>
+        </div>
+
+        <!-- bill full -->
+
+        <div class="section-bill" id="fullCardBoxBill" onclick="closeFullCardBill()">
+            <div class="container-bill">
+                <div class="card-bill">
+                     <div class="player-bill">
+                        <div class="circle-bill"><p>22</p>
+                            <img src="images/players/billCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-bill">
+                        <h2>Bill Solleder</h2>
+                        <h3>"Solleder"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardBill()"></i>
+        </div>
+
+        <!-- annie full -->
+
+        <div class="section-annie" id="fullCardBoxAnnie" onclick="closeFullCardAnnie()">
+            <div class="container-annie">
+                <div class="card-annie">
+                     <div class="player-annie">
+                        <div class="circle-annie"><p>23</p>
+                            <img src="images/players/annieCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-annie">
+                        <h2>Annie Gerber</h2>
+                        <h3>"Gerb"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardAnnie()"></i>
+        </div>
+
+        <!-- alexis full -->
+
+        <div class="section-alexis" id="fullCardBoxAlexis" onclick="closeFullCardAlexis()">
+            <div class="container-alexis">
+                <div class="card-alexis">
+                     <div class="player-alexis">
+                        <div class="circle-alexis"><p>42</p>
+                            <img src="images/players/alexisCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-alexis">
+                        <h2>Alexis Hampo</h2>
+                        <h3>"Buggy Whip"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardAlexis()"></i>
+        </div>
+
+        <!-- mallory full -->
+
+        <div class="section-mallory" id="fullCardBoxMallory" onclick="closeFullCardMallory()">
+            <div class="container-mallory">
+                <div class="card-mallory">
+                     <div class="player-mallory">
+                        <div class="circle-mallory"><p>69</p>
+                            <img src="images/players/malloryCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-mallory">
+                        <h2>Mallory Golden</h2>
+                        <h3>"Bat Slinger"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardMallory()"></i>
+        </div>
+
+        <!-- lorrie full -->
+
+        <div class="section-lorrie" id="fullCardBoxLorrie" onclick="closeFullCardLorrie()">
+            <div class="container-lorrie">
+                <div class="card-lorrie">
+                     <div class="player-lorrie">
+                        <div class="circle-lorrie"><p>77</p>
+                            <img src="images/players/lorrieCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-lorrie">
+                        <h2>Lorrie Monreal</h2>
+                        <h3>"Lolo"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardLorrie()"></i>
+        </div>
+
+        <!-- baber full -->
+
+        <div class="section-baber" id="fullCardBoxBaber" onclick="closeFullCardBaber()">
+            <div class="container-baber">
+                <div class="card-baber">
+                     <div class="player-baber">
+                        <div class="circle-baber"><p>92</p>
+                            <img src="images/players/baberCard.png" alt="player image">
+                        </div>
+                    </div>
+                    <div class="info-baber">
+                        <h2>Chris Baber</h2>
+                        <h3>"Baber"</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <i class="bi bi-x" onclick="closeFullCardBaber()"></i>
+        </div>
+
+
+
+        <!----------- table ------------->
+
+        <!-- table header -->
+
+        <div class="table-box">
+                <div class="table-row table-head">
+                    <div class="table-cell">
+                        <p>Player</p>
+                    </div>
+                    <div class="table-cell">
+                        <p>#</p>
+                    </div>
+                    <div class="table-cell last-cell">
+                        <p>Nickname</p>
+                    </div>
+                </div>
+            
+               <!-- rob -->
+             
+            <div class="table-row inner" onclick="openFullCardRob()">
+                    
                 <div class="table-cell">
                     <p>Rob Cox</p>
                 </div>
@@ -50,8 +452,13 @@
                 <div class="table-cell last-cell">
                     <p>Hot Dog</p>
                 </div>
+
             </div>
-            <div class="table-row">
+
+                <!-- dan -->
+            
+            <div class="table-row inner" onclick="openFullCardDan()">
+
                 <div class="table-cell">
                     <p>Dan Anderson</p>
                 </div>
@@ -62,7 +469,11 @@
                     <p>Captain</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- bucky -->
+
+            <div class="table-row inner" onclick="openFullCardBucky()">
+
                 <div class="table-cell">
                     <p>Bucky Monreal</p>
                 </div>
@@ -73,7 +484,11 @@
                     <p>Monreal</p>
                 </div>
             </div>
-            <div class="table-row">
+
+
+            <!-- jared -->
+
+            <div class="table-row inner" onclick="openFullCardJared()">
                 <div class="table-cell">
                     <p>Jared Fischer</p>
                 </div>
@@ -84,7 +499,10 @@
                     <p>Jear Bear</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- jando -->
+
+            <div class="table-row inner" onclick="openFullCardJando()">
                 <div class="table-cell">
                     <p>Jando Martinez</p>
                 </div>
@@ -95,7 +513,10 @@
                     <p>Middle Kid</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- kelsey -->
+
+            <div class="table-row inner" onclick="openFullCardKelsey()">
                 <div class="table-cell">
                     <p>Kelsey Gocio</p>
                 </div>
@@ -106,7 +527,10 @@
                     <p>Punchy</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- zach -->
+
+            <div class="table-row inner" onclick="openFullCardZach()">
                 <div class="table-cell">
                     <p>Zach Fischer</p>
                 </div>
@@ -117,7 +541,11 @@
                     <p>Solid</p>
                 </div>
             </div>
-            <div class="table-row">
+
+
+            <!-- brook -->
+
+            <div class="table-row inner" onclick="openFullCardBrook()">
                 <div class="table-cell">
                     <p>Brook Olsen</p>
                 </div>
@@ -128,7 +556,10 @@
                     <p>Bazooka</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- kyle -->
+
+            <div class="table-row inner" onclick="openFullCardKyle()">
                 <div class="table-cell">
                     <p>Kyle Rhoden</p>
                 </div>
@@ -139,7 +570,10 @@
                     <p>KyRo</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- drew -->
+
+            <div class="table-row inner" onclick="openFullCardDrew()">
                 <div class="table-cell">
                     <p>Drew Irwin</p>
                 </div>
@@ -150,7 +584,10 @@
                     <p>John Boy</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- casey -->
+
+            <div class="table-row inner" onclick="openFullCardCasey()">
                 <div class="table-cell">
                     <p>Casey Brindley</p>
                 </div>
@@ -161,7 +598,10 @@
                     <p>Cicada</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- adam -->
+
+            <div class="table-row inner" onclick="openFullCardAdam()">
                 <div class="table-cell">
                     <p>Adam Webb</p>
                 </div>
@@ -172,7 +612,10 @@
                     <p>Dugnutt</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- robbie -->
+
+            <div class="table-row inner" onclick="openFullCardRobbie()">
                 <div class="table-cell">
                     <p>Robbie Brindley</p>
                 </div>
@@ -183,7 +626,10 @@
                     <p></p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- bill -->
+
+            <div class="table-row inner" onclick="openFullCardBill()">
                 <div class="table-cell">
                     <p>Bill Solleder</p>
                 </div>
@@ -194,7 +640,10 @@
                     <p>Solleder</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- annie -->
+
+            <div class="table-row inner" onclick="openFullCardAnnie()">
                 <div class="table-cell">
                     <p>Annie Gerber</p>
                 </div>
@@ -205,18 +654,10 @@
                     <p>Gerb</p>
                 </div>
             </div>
-            <div class="table-row">
-                <div class="table-cell">
-                    <p>Justin Kim</p>
-                </div>
-                <div class="table-cell">
-                    <p>33</p>
-                </div>
-                <div class="table-cell last-cell">
-                    <p>Kim</p>
-                </div>
-            </div>
-            <div class="table-row">
+
+            <!-- alexis -->
+
+            <div class="table-row inner" onclick="openFullCardAlexis()">
                 <div class="table-cell">
                     <p>Alexis Hampo</p>
                 </div>
@@ -227,18 +668,10 @@
                     <p>Buggy Whip</p>
                 </div>
             </div>
-            <div class="table-row">
-                <div class="table-cell">
-                    <p>Ryan Smith</p>
-                </div>
-                <div class="table-cell">
-                    <p>45</p>
-                </div>
-                <div class="table-cell last-cell">
-                    <p>Uncle Gird</p>
-                </div>
-            </div>
-            <div class="table-row">
+
+            <!-- mallory -->
+     
+            <div class="table-row inner" onclick="openFullCardMallory()">
                 <div class="table-cell">
                     <p>Mallory Golden</p>
                 </div>
@@ -249,7 +682,10 @@
                     <p>Bat Slinger</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- lorrie -->
+
+            <div class="table-row inner" onclick="openFullCardLorrie()">
                 <div class="table-cell">
                     <p>Lorrie Monreal</p>
                 </div>
@@ -260,7 +696,10 @@
                     <p>Lolo</p>
                 </div>
             </div>
-            <div class="table-row">
+
+            <!-- baber -->
+
+            <div class="table-row inner" onclick="openFullCardBaber()">
                 <div class="table-cell">
                     <p>Chris Baber</p>
                 </div>
@@ -294,14 +733,6 @@
         </footer>
     </div>
 
-    <script>
-        var show = document.getElementById("nav-links");
-        function showMenu() {
-            show.style.right = "0";
-        }
-        function closeMenu() {
-            show.style.right = "-200px";
-        }
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
