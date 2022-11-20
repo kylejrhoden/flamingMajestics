@@ -61,6 +61,7 @@
 
 .player-rob img {
     width: 300px;
+    max-width: 100%;
     margin-top: -20px;
     z-index: 2;
 }
@@ -187,6 +188,7 @@
 
 .player-dan img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -314,6 +316,7 @@
 
 .player-bucky img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -441,6 +444,7 @@
 
 .player-jared img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -567,6 +571,7 @@
 
 .player-jando img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -694,6 +699,7 @@
 
 .player-kelsey img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -714,7 +720,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .info-kelsey {
@@ -821,6 +827,7 @@
 
 .player-zach img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -841,7 +848,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .info-zach {
@@ -948,6 +955,7 @@
 
 .player-brook img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -1075,6 +1083,7 @@
 
 .player-kyle img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -1202,6 +1211,7 @@
 
 .player-drew img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -1222,7 +1232,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .info-drew {
@@ -1329,6 +1339,7 @@
 
 .player-casey img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -1455,6 +1466,7 @@
 
 .player-adam img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -1475,7 +1487,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .info-adam {
@@ -1582,6 +1594,7 @@
 
 .player-robbie img {
     width: 300px;
+    max-width: 100%;
     margin-top: -40px;
     z-index: 2;
 }
@@ -1709,6 +1722,7 @@
 
 .player-bill img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -1835,6 +1849,7 @@
 
 .player-annie img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -1855,7 +1870,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .info-annie {
@@ -1962,6 +1977,7 @@
 
 .player-alexis img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -1982,7 +1998,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .info-alexis {
@@ -2089,6 +2105,7 @@
 
 .player-mallory img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -2216,6 +2233,7 @@
 
 .player-lorrie img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -2343,6 +2361,7 @@
 
 .player-baber img {
     width: 300px;
+    max-width: 100%;
     margin-top: -30px;
     z-index: 2;
 }
@@ -2363,7 +2382,7 @@
     color: #000;
     font-size: 46px;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .info-baber {
