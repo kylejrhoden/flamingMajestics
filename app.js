@@ -24,7 +24,6 @@ var fullCardBoxRobbie = document.getElementById("fullCardBoxRobbie");
 var fullCardBoxBill = document.getElementById("fullCardBoxBill");
 var fullCardBoxAnnie = document.getElementById("fullCardBoxAnnie");
 var fullCardBoxAlexis = document.getElementById("fullCardBoxAlexis");
-var fullCardBoxMallory = document.getElementById("fullCardBoxMallory");
 var fullCardBoxLorrie = document.getElementById("fullCardBoxLorrie");
 var fullCardBoxBaber = document.getElementById("fullCardBoxBaber");
 
@@ -490,35 +489,6 @@ containerAlexis.addEventListener('mouseenter', (e) => {
 containerAlexis.addEventListener('mouseleave', (e) => {
     cardAlexis.style.transition = 'all 0.4s ease';
     cardAlexis.style.transform = `rotateY(0deg) rotateX(0deg)`;
-});
-
-/////////// mallory card
-function openFullCardMallory() {
-    fullCardBoxMallory.style.display = "flex";
-}
-function closeFullCardMallory() {
-    fullCardBoxMallory.style.display = "none";
-}
-// movement animation
-const cardMallory = document.querySelector('.card-mallory');
-const containerMallory = document.querySelector('.container-mallory');
-
-// moving animation event
-
-containerMallory.addEventListener('mousemove', (e) => {
-    let xAxis = (window.innerWidth / 2 - e.pageX) / 20;
-    let yAxis = (window.innerHeight / 2 - e.pageY) / 20;
-    cardMallory.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
-})
-
-// pop back pop in
-
-containerMallory.addEventListener('mouseenter', (e) => {
-    cardMallory.style.transition = 'none';
-});
-containerMallory.addEventListener('mouseleave', (e) => {
-    cardMallory.style.transition = 'all 0.4s ease';
-    cardMallory.style.transform = `rotateY(0deg) rotateX(0deg)`;
 });
 
 /////////// lorrie card
