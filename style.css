@@ -534,6 +534,12 @@ input:focus~label, input:valid~label, textarea:focus~label,textarea:valid~label 
     letter-spacing: 1px;
 }
 
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
 /* ---------thank you page styling -----------------*/
 
 
